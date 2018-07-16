@@ -22,3 +22,7 @@ The navigation is more straightforward: there are only 5 links available, in con
 ## Further updates
 It is planned to include more content in the website, which is now missing a downloadable flyer with prices (which are only displayed in the ‘Prices’ page) and the list of the most common shots grouped by marriage phase.
 The landscape view is not particularly appealing: it is planned to add landscape layouts.
+
+## Notes
+The /media folder is not included in this repository for copyright reasons. To view the full version of the website please visit 
+http://photoanges.com.
