@@ -1,0 +1,165 @@
+/* 
+    Created on : Mar 22, 2018, 10:03:52 AM
+    Author     : Thomas Cilloni
+
+    FOR PHOTOANGES NEW WEBSITE
+*/
+/*RESET*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5,
+h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong,
+sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin:0; 
+    padding:0; 
+    border:0; 
+    outline:0; 
+    font-size:100%; 
+    vertical-align:baseline; 
+    background:transparent;
+}
+body {
+    line-height: 1;
+}
+html, body {
+    height: 100%;
+}
+ol, ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content:'';
+    content:none;
+}
+:focus {
+    outline:0;
+}
+ins {
+    text-decoration:none;
+}
+del {
+    text-decoration:line-through;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+
+/* HEADER */
+body {
+    font-size: 1.05em;
+    line-height: 1.25em;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    background: #fff;
+    color: #555;
+}
+
+li a {
+    color: #ad8400;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #444;
+}
+
+header {
+    background: #ffe1d2;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 4px solid #ad8400;
+    z-index: 100;
+}
+
+#logo {
+    margin: 10px 15px;
+    float: left;
+    width: 154px;
+    height: 60px;
+    display: block;
+}
+
+#logo img {
+    width: 100%;
+}
+
+nav {
+    float: right;
+    padding: 20px;
+}
+
+#menu-icon {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background: #ad8400 center;
+}
+
+a:hover #menu-icon {
+    background-color: #444;
+    border-radius: 4px 4px 0 0;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    float: left;
+    padding: 8px;
+}
+
+/* FOOTER */
+footer {
+    position: relative;
+    display: block;
+    
+    width: 100%;
+    height: 150px;
+    
+    vertical-align: top;
+    margin: 100px 0 0;
+    
+    background: #ffe1d2;
+    border-top: 4px solid #ad8400;
+    border-bottom: 1px solid #ffe1d2;
+}
+#rights {
+    margin: 20px 50px;
+    padding: 0;
+    
+    font-size: 1.1em;
+}
+#design {
+    display: block;
+    margin: 20px 50px;
+    padding: 0;
+    
+    font-size: 1em;
+    color: #444;
+}
+footer p:nth-child(3) {
+    margin: 20px 50px;
+    padding: 0;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+
+
+.title {
+    margin: 100px auto 40px;
+    font: 400 80px 'Oleo Script', Helvetica, sans-serif;
+    text-shadow: 4px 4px 0px rgba(0,0,0,0,0.1);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}

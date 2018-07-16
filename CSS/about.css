@@ -1,0 +1,76 @@
+
+.columnAbout {
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+.columnAbout div {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 30px;
+}
+
+h2 {
+    text-align: left;
+    font-size: 1.7em;
+    line-height: 1em;
+    
+    margin-bottom: 20px;
+}
+#quote {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#citation {
+    font-style: italic;
+    
+    display: inline-block;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+#thanks {
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+
+.contactCard {
+    width: 210px;
+    margin: 30px auto;
+    
+    float: left;
+    text-align: center;
+}
+.contactCard img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+h3 {
+    font-size: 1.2em;
+    display: block;
+    margin: 5px 0;
+}
+
+#contacts {
+    display: inline-block;
+    padding: 30px auto;
+    width: 210px;
+    text-align: center;
+}
+#contacts img {
+    width: 170px;
+}
+
+
+#container {
+    overflow: hidden;
+}

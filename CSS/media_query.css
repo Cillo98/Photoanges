@@ -1,0 +1,111 @@
+/* 
+    Created on : Mar 22, 2018, 10:03:52 AM
+    Author     : Thomas Cilloni
+
+    FOR PHOTOANGES NEW WEBSITE
+
+Nexus 5X is read as 412px of width (it actually is 1080p, 420dpi)
+*/
+
+/* NAVIGATION PANE */ 
+@media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+    }
+    
+    header {
+        position: absolute;
+    }
+    
+    #menu-icon {
+        display: inline-block;
+    }
+    
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        background: #fff;
+        border: 5px solid #444;
+        right: 20px;
+        top: 60px;
+        width: 50%;
+        border-radius: 4px 0 4px 4px;
+    }
+    
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+    
+    nav:hover ul {
+        display: block;
+    }
+
+    #homeSection {
+        margin: 100px auto 40px;
+        max-width: 980px;
+        position: relative;
+        padding: 20px;
+    }
+    
+    .description {
+        width: 100%;
+    }
+}
+
+
+/* GALLERY COLUMNS */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* ABOUT COLUMNS */
+@media screen and (max-width: 600px) {
+  .columnAbout {
+    width: 100%;
+  }
+  .columnAbout div {
+    max-width: none;
+  }
+  #contacts {
+      width: 100%;
+  }
+  .contactCard {
+      float: none;
+  }
+}
+
+
+/* PRICES */
+@media screen and (min-width: 1200px) {
+    #prices {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .priceCol {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .priceCol {
+        width: 80%;
+        min-width: 200px;
+        max-width: none;
+        flex: none;
+        
+        margin: 0 10% 50px;
+    }
+}

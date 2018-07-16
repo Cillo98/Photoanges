@@ -1,0 +1,73 @@
+
+h4 {
+    display: block;
+    
+    width: 80%;
+    max-width: 960px;
+    margin: 20px auto;
+    
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.priceCol {
+    display: inline-block;
+    float: left;
+    
+    text-align: center;
+    
+    flex: 33%;
+    max-width: 33%;
+}
+
+h2 {
+    display: block;
+    padding: 20px 0;
+    
+    font-size: 2em;
+    color: rgb(30, 30, 30);
+}
+h3 {
+    display: block;
+    margin: 20px 0;
+    font-size: 1.3em;
+}
+p {
+    padding: 20px;
+    font-size: 1.1em;
+    color: black;
+}
+
+#jade h2 {
+    background: rgba(0, 255, 0, 0.5);
+}
+#saph h2 {
+    background: rgba(0, 102, 255, 0.5);
+}
+#ruby h2 {
+    background: rgba(255, 0, 0, 0.5);
+}
+
+#jade p:nth-child(even) {
+    background: rgba(0, 255, 0, 0.3);
+}
+#jade p:nth-child(odd) {
+    background: rgba(0, 255, 0, 0.1);
+}
+#saph p:nth-child(even) {
+    background: rgba(0, 102, 255, 0.1);
+}
+#saph p:nth-child(odd) {
+    background: rgba(0, 102, 255, 0.3);
+}
+#ruby p:nth-child(even) {
+    background: rgba(255, 0, 0, 0.3);
+}
+#ruby p:nth-child(odd) {
+    background: rgba(255, 0, 0, 0.1);
+}
+
+
+#prices {
+    overflow: hidden;
+}

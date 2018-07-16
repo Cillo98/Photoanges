@@ -1,0 +1,88 @@
+/* BIG CONTAINER */
+#imgMenu {
+    position: absolute;
+    width: 100%;
+    margin: 80px 0 0 0;
+}
+
+/* EACH LINE (2 pics) */
+.cats {
+    width: 100%;
+    height: 50%;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* PIC ENCLOSURE */
+.cats div {
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* PIC ITSELF */
+.cats div img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+    transition: 0.3s;
+    
+    z-index: 2; /* text is at index 0*/
+}
+
+/* HOVER ON PIC */
+.cats div:hover img {
+    min-width: 150%;
+    min-height: 150%;
+    
+    opacity: 0.5;
+    z-index: 0;
+}
+
+.cats p {
+    position: absolute;
+    display: inline;
+    text-align: center;
+    z-index: 1;
+    
+    width: 50%;
+    margin: 0;
+    padding: 3% 0;
+    
+    background: #ffe1d2;
+    
+    font-size: 3em;
+}
+
+
+
+
+/* DUPLICATE
+
+.catsSecond {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    margin: 0;
+}
+.catsSecond div {
+    width: 50%;
+    height: 100%;
+    float: left;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.catsSecond div img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+*/
